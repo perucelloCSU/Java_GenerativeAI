@@ -1,0 +1,10 @@
+@relation sentiment_analysis
+
+@attribute text string
+@attribute class {positivo, negativo}
+
+@data
+"Hoje o dia está maravilhoso", positivo
+"Estou muito triste com o que aconteceu", negativo
+"Que ótimo trabalho você fez", positivo
+"Não estou satisfeito com o serviço", negativo
